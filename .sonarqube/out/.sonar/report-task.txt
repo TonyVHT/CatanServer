@@ -1,6 +1,0 @@
-projectKey=ServerCatanSonar
-serverUrl=http://localhost:9000
-serverVersion=10.7.0.96327
-dashboardUrl=http://localhost:9000/dashboard?id=ServerCatanSonar
-ceTaskId=63304159-5e37-42c9-a67e-69c9606a2520
-ceTaskUrl=http://localhost:9000/api/ce/task?id=63304159-5e37-42c9-a67e-69c9606a2520
