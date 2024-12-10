@@ -1,0 +1,997 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Compilador de Microsoft (R) Visual C#",
+        "version": "4.11.0.0",
+        "fileVersion": "4.11.0-3.24376.4 (5e3a11e2)",
+        "semanticVersion": "4.11.0",
+        "language": "es-ES"
+      },
+      "results": [
+        {
+          "ruleId": "S2068",
+          "level": "warning",
+          "message": "\"password\" detected here, make sure this is not a hard-coded credential.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/gearh/source/repos/CatanServer/CatanService/Helpers/AccountValidationUtilities.cs",
+                "region": {
+                  "startLine": 15,
+                  "startColumn": 29,
+                  "endLine": 15,
+                  "endColumn": 146
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3776",
+          "level": "warning",
+          "message": "Refactor this method to reduce its Cognitive Complexity from 21 to the 15 allowed.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/gearh/source/repos/CatanServer/CatanService/Helpers/GameplayRules.cs",
+                "region": {
+                  "startLine": 90,
+                  "startColumn": 28,
+                  "endLine": 90,
+                  "endColumn": 58
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/gearh/source/repos/CatanServer/CatanService/Helpers/GameplayRules.cs",
+                "region": {
+                  "startLine": 94,
+                  "startColumn": 13,
+                  "endLine": 94,
+                  "endColumn": 20
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/gearh/source/repos/CatanServer/CatanService/Helpers/GameplayRules.cs",
+                "region": {
+                  "startLine": 96,
+                  "startColumn": 17,
+                  "endLine": 96,
+                  "endColumn": 24
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/gearh/source/repos/CatanServer/CatanService/Helpers/GameplayRules.cs",
+                "region": {
+                  "startLine": 98,
+                  "startColumn": 21,
+                  "endLine": 98,
+                  "endColumn": 23
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/gearh/source/repos/CatanServer/CatanService/Helpers/GameplayRules.cs",
+                "region": {
+                  "startLine": 101,
+                  "startColumn": 25,
+                  "endLine": 101,
+                  "endColumn": 32
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/gearh/source/repos/CatanServer/CatanService/Helpers/GameplayRules.cs",
+                "region": {
+                  "startLine": 104,
+                  "startColumn": 29,
+                  "endLine": 104,
+                  "endColumn": 31
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/gearh/source/repos/CatanServer/CatanService/Helpers/GameplayRules.cs",
+                "region": {
+                  "startLine": 104,
+                  "startColumn": 53,
+                  "endLine": 104,
+                  "endColumn": 55
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/gearh/source/repos/CatanServer/CatanService/Helpers/GameplayRules.cs",
+                "region": {
+                  "startLine": 110,
+                  "startColumn": 21,
+                  "endLine": 110,
+                  "endColumn": 25
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/gearh/source/repos/CatanServer/CatanService/Helpers/GameplayRules.cs",
+                "region": {
+                  "startLine": 112,
+                  "startColumn": 25,
+                  "endLine": 112,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": "+1",
+              "1": "+2 (incl 1 for nesting)",
+              "2": "+3 (incl 2 for nesting)",
+              "3": "+4 (incl 3 for nesting)",
+              "4": "+5 (incl 4 for nesting)",
+              "5": "+1",
+              "6": "+1",
+              "7": "+4 (incl 3 for nesting)"
+            }
+          }
+        },
+        {
+          "ruleId": "S6602",
+          "level": "warning",
+          "message": "\"Find\" method should be used instead of the \"FirstOrDefault\" extension method.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/gearh/source/repos/CatanServer/CatanService/Helpers/GameplayRules.cs",
+                "region": {
+                  "startLine": 103,
+                  "startColumn": 63,
+                  "endLine": 103,
+                  "endColumn": 77
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3776",
+          "level": "warning",
+          "message": "Refactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/gearh/source/repos/CatanServer/CatanService/Services/GameServices/GameService.cs",
+                "region": {
+                  "startLine": 370,
+                  "startColumn": 21,
+                  "endLine": 370,
+                  "endColumn": 37
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/gearh/source/repos/CatanServer/CatanService/Services/GameServices/GameService.cs",
+                "region": {
+                  "startLine": 374,
+                  "startColumn": 13,
+                  "endLine": 374,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/gearh/source/repos/CatanServer/CatanService/Services/GameServices/GameService.cs",
+                "region": {
+                  "startLine": 376,
+                  "startColumn": 17,
+                  "endLine": 376,
+                  "endColumn": 24
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/gearh/source/repos/CatanServer/CatanService/Services/GameServices/GameService.cs",
+                "region": {
+                  "startLine": 378,
+                  "startColumn": 21,
+                  "endLine": 378,
+                  "endColumn": 23
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/gearh/source/repos/CatanServer/CatanService/Services/GameServices/GameService.cs",
+                "region": {
+                  "startLine": 384,
+                  "startColumn": 25,
+                  "endLine": 384,
+                  "endColumn": 30
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/gearh/source/repos/CatanServer/CatanService/Services/GameServices/GameService.cs",
+                "region": {
+                  "startLine": 388,
+                  "startColumn": 25,
+                  "endLine": 388,
+                  "endColumn": 30
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/gearh/source/repos/CatanServer/CatanService/Services/GameServices/GameService.cs",
+                "region": {
+                  "startLine": 392,
+                  "startColumn": 25,
+                  "endLine": 392,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": "+1",
+              "1": "+2 (incl 1 for nesting)",
+              "2": "+3 (incl 2 for nesting)",
+              "3": "+4 (incl 3 for nesting)",
+              "4": "+4 (incl 3 for nesting)",
+              "5": "+4 (incl 3 for nesting)"
+            }
+          }
+        },
+        {
+          "ruleId": "S3267",
+          "level": "warning",
+          "message": "Loops should be simplified using the \"Where\" LINQ method",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/gearh/source/repos/CatanServer/CatanService/Services/GameServices/GameService.cs",
+                "region": {
+                  "startLine": 376,
+                  "startColumn": 52,
+                  "endLine": 376,
+                  "endColumn": 65
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/gearh/source/repos/CatanServer/CatanService/Services/GameServices/GameService.cs",
+                "region": {
+                  "startLine": 378,
+                  "startColumn": 25,
+                  "endLine": 378,
+                  "endColumn": 53
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": null
+            }
+          }
+        },
+        {
+          "ruleId": "S3776",
+          "level": "warning",
+          "message": "Refactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/gearh/source/repos/CatanServer/CatanService/Services/GameServices/GameService.cs",
+                "region": {
+                  "startLine": 1594,
+                  "startColumn": 28,
+                  "endLine": 1594,
+                  "endColumn": 56
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/gearh/source/repos/CatanServer/CatanService/Services/GameServices/GameService.cs",
+                "region": {
+                  "startLine": 1596,
+                  "startColumn": 13,
+                  "endLine": 1596,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/gearh/source/repos/CatanServer/CatanService/Services/GameServices/GameService.cs",
+                "region": {
+                  "startLine": 1598,
+                  "startColumn": 17,
+                  "endLine": 1598,
+                  "endColumn": 24
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/gearh/source/repos/CatanServer/CatanService/Services/GameServices/GameService.cs",
+                "region": {
+                  "startLine": 1602,
+                  "startColumn": 25,
+                  "endLine": 1602,
+                  "endColumn": 27
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/gearh/source/repos/CatanServer/CatanService/Services/GameServices/GameService.cs",
+                "region": {
+                  "startLine": 1602,
+                  "startColumn": 57,
+                  "endLine": 1602,
+                  "endColumn": 59
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/gearh/source/repos/CatanServer/CatanService/Services/GameServices/GameService.cs",
+                "region": {
+                  "startLine": 1607,
+                  "startColumn": 21,
+                  "endLine": 1607,
+                  "endColumn": 26
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/gearh/source/repos/CatanServer/CatanService/Services/GameServices/GameService.cs",
+                "region": {
+                  "startLine": 1611,
+                  "startColumn": 21,
+                  "endLine": 1611,
+                  "endColumn": 26
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/gearh/source/repos/CatanServer/CatanService/Services/GameServices/GameService.cs",
+                "region": {
+                  "startLine": 1615,
+                  "startColumn": 21,
+                  "endLine": 1615,
+                  "endColumn": 26
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": "+1",
+              "1": "+2 (incl 1 for nesting)",
+              "2": "+3 (incl 2 for nesting)",
+              "3": "+1",
+              "4": "+3 (incl 2 for nesting)",
+              "5": "+3 (incl 2 for nesting)",
+              "6": "+3 (incl 2 for nesting)"
+            }
+          }
+        },
+        {
+          "ruleId": "S3776",
+          "level": "warning",
+          "message": "Refactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/gearh/source/repos/CatanServer/CatanService/Services/GameServices/GameService.cs",
+                "region": {
+                  "startLine": 1913,
+                  "startColumn": 22,
+                  "endLine": 1913,
+                  "endColumn": 29
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/gearh/source/repos/CatanServer/CatanService/Services/GameServices/GameService.cs",
+                "region": {
+                  "startLine": 1915,
+                  "startColumn": 13,
+                  "endLine": 1915,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/gearh/source/repos/CatanServer/CatanService/Services/GameServices/GameService.cs",
+                "region": {
+                  "startLine": 1917,
+                  "startColumn": 17,
+                  "endLine": 1917,
+                  "endColumn": 24
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/gearh/source/repos/CatanServer/CatanService/Services/GameServices/GameService.cs",
+                "region": {
+                  "startLine": 1920,
+                  "startColumn": 21,
+                  "endLine": 1920,
+                  "endColumn": 23
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/gearh/source/repos/CatanServer/CatanService/Services/GameServices/GameService.cs",
+                "region": {
+                  "startLine": 1920,
+                  "startColumn": 53,
+                  "endLine": 1920,
+                  "endColumn": 55
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/gearh/source/repos/CatanServer/CatanService/Services/GameServices/GameService.cs",
+                "region": {
+                  "startLine": 1927,
+                  "startColumn": 25,
+                  "endLine": 1927,
+                  "endColumn": 30
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/gearh/source/repos/CatanServer/CatanService/Services/GameServices/GameService.cs",
+                "region": {
+                  "startLine": 1931,
+                  "startColumn": 25,
+                  "endLine": 1931,
+                  "endColumn": 30
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/gearh/source/repos/CatanServer/CatanService/Services/GameServices/GameService.cs",
+                "region": {
+                  "startLine": 1935,
+                  "startColumn": 25,
+                  "endLine": 1935,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": "+1",
+              "1": "+2 (incl 1 for nesting)",
+              "2": "+3 (incl 2 for nesting)",
+              "3": "+1",
+              "4": "+4 (incl 3 for nesting)",
+              "5": "+4 (incl 3 for nesting)",
+              "6": "+4 (incl 3 for nesting)"
+            }
+          }
+        },
+        {
+          "ruleId": "S2245",
+          "level": "warning",
+          "message": "Make sure that using this pseudorandom number generator is safe here.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/gearh/source/repos/CatanServer/CatanService/Services/GameServices/GameService.cs",
+                "region": {
+                  "startLine": 2039,
+                  "startColumn": 29,
+                  "endLine": 2039,
+                  "endColumn": 41
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3776",
+          "level": "warning",
+          "message": "Refactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/gearh/source/repos/CatanServer/CatanService/Services/GameServices/GameService.cs",
+                "region": {
+                  "startLine": 2445,
+                  "startColumn": 22,
+                  "endLine": 2445,
+                  "endColumn": 48
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/gearh/source/repos/CatanServer/CatanService/Services/GameServices/GameService.cs",
+                "region": {
+                  "startLine": 2447,
+                  "startColumn": 13,
+                  "endLine": 2447,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/gearh/source/repos/CatanServer/CatanService/Services/GameServices/GameService.cs",
+                "region": {
+                  "startLine": 2447,
+                  "startColumn": 110,
+                  "endLine": 2447,
+                  "endColumn": 112
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/gearh/source/repos/CatanServer/CatanService/Services/GameServices/GameService.cs",
+                "region": {
+                  "startLine": 2450,
+                  "startColumn": 17,
+                  "endLine": 2450,
+                  "endColumn": 24
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/gearh/source/repos/CatanServer/CatanService/Services/GameServices/GameService.cs",
+                "region": {
+                  "startLine": 2458,
+                  "startColumn": 25,
+                  "endLine": 2458,
+                  "endColumn": 27
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/gearh/source/repos/CatanServer/CatanService/Services/GameServices/GameService.cs",
+                "region": {
+                  "startLine": 2458,
+                  "startColumn": 58,
+                  "endLine": 2458,
+                  "endColumn": 60
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/gearh/source/repos/CatanServer/CatanService/Services/GameServices/GameService.cs",
+                "region": {
+                  "startLine": 2463,
+                  "startColumn": 21,
+                  "endLine": 2463,
+                  "endColumn": 26
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/gearh/source/repos/CatanServer/CatanService/Services/GameServices/GameService.cs",
+                "region": {
+                  "startLine": 2467,
+                  "startColumn": 21,
+                  "endLine": 2467,
+                  "endColumn": 26
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/gearh/source/repos/CatanServer/CatanService/Services/GameServices/GameService.cs",
+                "region": {
+                  "startLine": 2471,
+                  "startColumn": 21,
+                  "endLine": 2471,
+                  "endColumn": 26
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": "+1",
+              "1": "+1",
+              "2": "+2 (incl 1 for nesting)",
+              "3": "+3 (incl 2 for nesting)",
+              "4": "+1",
+              "5": "+3 (incl 2 for nesting)",
+              "6": "+3 (incl 2 for nesting)",
+              "7": "+3 (incl 2 for nesting)"
+            }
+          }
+        },
+        {
+          "ruleId": "S3776",
+          "level": "warning",
+          "message": "Refactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/gearh/source/repos/CatanServer/CatanService/Services/GameServices/GameService.cs",
+                "region": {
+                  "startLine": 2517,
+                  "startColumn": 22,
+                  "endLine": 2517,
+                  "endColumn": 45
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/gearh/source/repos/CatanServer/CatanService/Services/GameServices/GameService.cs",
+                "region": {
+                  "startLine": 2519,
+                  "startColumn": 13,
+                  "endLine": 2519,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/gearh/source/repos/CatanServer/CatanService/Services/GameServices/GameService.cs",
+                "region": {
+                  "startLine": 2521,
+                  "startColumn": 17,
+                  "endLine": 2521,
+                  "endColumn": 24
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/gearh/source/repos/CatanServer/CatanService/Services/GameServices/GameService.cs",
+                "region": {
+                  "startLine": 2527,
+                  "startColumn": 25,
+                  "endLine": 2527,
+                  "endColumn": 27
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/gearh/source/repos/CatanServer/CatanService/Services/GameServices/GameService.cs",
+                "region": {
+                  "startLine": 2527,
+                  "startColumn": 58,
+                  "endLine": 2527,
+                  "endColumn": 60
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/gearh/source/repos/CatanServer/CatanService/Services/GameServices/GameService.cs",
+                "region": {
+                  "startLine": 2532,
+                  "startColumn": 21,
+                  "endLine": 2532,
+                  "endColumn": 26
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/gearh/source/repos/CatanServer/CatanService/Services/GameServices/GameService.cs",
+                "region": {
+                  "startLine": 2536,
+                  "startColumn": 21,
+                  "endLine": 2536,
+                  "endColumn": 26
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/gearh/source/repos/CatanServer/CatanService/Services/GameServices/GameService.cs",
+                "region": {
+                  "startLine": 2540,
+                  "startColumn": 21,
+                  "endLine": 2540,
+                  "endColumn": 26
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": "+1",
+              "1": "+2 (incl 1 for nesting)",
+              "2": "+3 (incl 2 for nesting)",
+              "3": "+1",
+              "4": "+3 (incl 2 for nesting)",
+              "5": "+3 (incl 2 for nesting)",
+              "6": "+3 (incl 2 for nesting)"
+            }
+          }
+        },
+        {
+          "ruleId": "S3776",
+          "level": "warning",
+          "message": "Refactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/gearh/source/repos/CatanServer/CatanService/Services/GameServices/GameService.cs",
+                "region": {
+                  "startLine": 2584,
+                  "startColumn": 22,
+                  "endLine": 2584,
+                  "endColumn": 55
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/gearh/source/repos/CatanServer/CatanService/Services/GameServices/GameService.cs",
+                "region": {
+                  "startLine": 2589,
+                  "startColumn": 13,
+                  "endLine": 2589,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/gearh/source/repos/CatanServer/CatanService/Services/GameServices/GameService.cs",
+                "region": {
+                  "startLine": 2592,
+                  "startColumn": 17,
+                  "endLine": 2592,
+                  "endColumn": 24
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/gearh/source/repos/CatanServer/CatanService/Services/GameServices/GameService.cs",
+                "region": {
+                  "startLine": 2598,
+                  "startColumn": 25,
+                  "endLine": 2598,
+                  "endColumn": 27
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/gearh/source/repos/CatanServer/CatanService/Services/GameServices/GameService.cs",
+                "region": {
+                  "startLine": 2598,
+                  "startColumn": 64,
+                  "endLine": 2598,
+                  "endColumn": 66
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/gearh/source/repos/CatanServer/CatanService/Services/GameServices/GameService.cs",
+                "region": {
+                  "startLine": 2603,
+                  "startColumn": 21,
+                  "endLine": 2603,
+                  "endColumn": 26
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/gearh/source/repos/CatanServer/CatanService/Services/GameServices/GameService.cs",
+                "region": {
+                  "startLine": 2607,
+                  "startColumn": 21,
+                  "endLine": 2607,
+                  "endColumn": 26
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/gearh/source/repos/CatanServer/CatanService/Services/GameServices/GameService.cs",
+                "region": {
+                  "startLine": 2611,
+                  "startColumn": 21,
+                  "endLine": 2611,
+                  "endColumn": 26
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": "+1",
+              "1": "+2 (incl 1 for nesting)",
+              "2": "+3 (incl 2 for nesting)",
+              "3": "+1",
+              "4": "+3 (incl 2 for nesting)",
+              "5": "+3 (incl 2 for nesting)",
+              "6": "+3 (incl 2 for nesting)"
+            }
+          }
+        },
+        {
+          "ruleId": "S6602",
+          "level": "warning",
+          "message": "\"Find\" method should be used instead of the \"FirstOrDefault\" extension method.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/gearh/source/repos/CatanServer/CatanService/Services/GameServices/GameService.cs",
+                "region": {
+                  "startLine": 2721,
+                  "startColumn": 65,
+                  "endLine": 2721,
+                  "endColumn": 79
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        }
+      ],
+      "rules": {
+        "S2068": {
+          "id": "S2068",
+          "shortDescription": "Hard-coded credentials are security-sensitive",
+          "fullDescription": "Because it is easy to extract strings from an application source code or binary, credentials should not be hard-coded. This is particularly true for applications that are distributed or that are open-source.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-2068",
+          "properties": {
+            "category": "Blocker Security Hotspot",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S2245": {
+          "id": "S2245",
+          "shortDescription": "Using pseudorandom number generators (PRNGs) is security-sensitive",
+          "fullDescription": "Using pseudorandom number generators (PRNGs) is security-sensitive. For example, it has led in the past to the following vulnerabilities:",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-2245",
+          "properties": {
+            "category": "Critical Security Hotspot",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S3267": {
+          "id": "S3267",
+          "shortDescription": "Loops should be simplified with \"LINQ\" expressions",
+          "fullDescription": "When a loop is filtering, selecting or aggregating, those functions can be handled with a clearer, more concise LINQ expression instead.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3267",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S3776": {
+          "id": "S3776",
+          "shortDescription": "Cognitive Complexity of methods should not be too high",
+          "fullDescription": "This rule raises an issue when the code cognitive complexity of a function is above a certain threshold.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3776",
+          "properties": {
+            "category": "Critical Code Smell",
+            "isEnabledByDefault": false,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S6602": {
+          "id": "S6602",
+          "shortDescription": "\"Find\" method should be used instead of the \"FirstOrDefault\" extension",
+          "fullDescription": "Both the List.Find method and IEnumerable.FirstOrDefault method can be used to find the first element that satisfies a given condition in a collection. However, List.Find can be faster than IEnumerable.FirstOrDefault for List objects. For small collections, the performance difference may be minor, but for large collections, it can make a noticeable difference. The same applies for ImmutableList and arrays too.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-6602",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

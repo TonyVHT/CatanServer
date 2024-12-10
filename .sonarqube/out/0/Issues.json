@@ -1,0 +1,741 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Compilador de Microsoft (R) Visual C#",
+        "version": "4.11.0.0",
+        "fileVersion": "4.11.0-3.24376.4 (5e3a11e2)",
+        "semanticVersion": "4.11.0",
+        "language": "es-ES"
+      },
+      "results": [
+        {
+          "ruleId": "S1192",
+          "level": "warning",
+          "message": "Define a constant instead of using this literal 'dbo.Accounts' 4 times.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/gearh/source/repos/CatanServer/CatanDataAccess/Migrations/202412040807438_InitialMigrationCatanDB.cs",
+                "region": {
+                  "startLine": 11,
+                  "startColumn": 17,
+                  "endLine": 11,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/gearh/source/repos/CatanServer/CatanDataAccess/Migrations/202412040807438_InitialMigrationCatanDB.cs",
+                "region": {
+                  "startLine": 41,
+                  "startColumn": 29,
+                  "endLine": 41,
+                  "endColumn": 43
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/gearh/source/repos/CatanServer/CatanDataAccess/Migrations/202412040807438_InitialMigrationCatanDB.cs",
+                "region": {
+                  "startLine": 122,
+                  "startColumn": 50,
+                  "endLine": 122,
+                  "endColumn": 64
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/gearh/source/repos/CatanServer/CatanDataAccess/Migrations/202412040807438_InitialMigrationCatanDB.cs",
+                "region": {
+                  "startLine": 143,
+                  "startColumn": 23,
+                  "endLine": 143,
+                  "endColumn": 37
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": null,
+              "1": null,
+              "2": null
+            }
+          }
+        },
+        {
+          "ruleId": "S1192",
+          "level": "warning",
+          "message": "Define a constant instead of using this literal 'dbo.Profiles' 10 times.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/gearh/source/repos/CatanServer/CatanDataAccess/Migrations/202412040807438_InitialMigrationCatanDB.cs",
+                "region": {
+                  "startLine": 29,
+                  "startColumn": 17,
+                  "endLine": 29,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/gearh/source/repos/CatanServer/CatanDataAccess/Migrations/202412040807438_InitialMigrationCatanDB.cs",
+                "region": {
+                  "startLine": 56,
+                  "startColumn": 29,
+                  "endLine": 56,
+                  "endColumn": 43
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/gearh/source/repos/CatanServer/CatanDataAccess/Migrations/202412040807438_InitialMigrationCatanDB.cs",
+                "region": {
+                  "startLine": 113,
+                  "startColumn": 29,
+                  "endLine": 113,
+                  "endColumn": 43
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/gearh/source/repos/CatanServer/CatanDataAccess/Migrations/202412040807438_InitialMigrationCatanDB.cs",
+                "region": {
+                  "startLine": 114,
+                  "startColumn": 29,
+                  "endLine": 114,
+                  "endColumn": 43
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/gearh/source/repos/CatanServer/CatanDataAccess/Migrations/202412040807438_InitialMigrationCatanDB.cs",
+                "region": {
+                  "startLine": 122,
+                  "startColumn": 28,
+                  "endLine": 122,
+                  "endColumn": 42
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/gearh/source/repos/CatanServer/CatanDataAccess/Migrations/202412040807438_InitialMigrationCatanDB.cs",
+                "region": {
+                  "startLine": 123,
+                  "startColumn": 69,
+                  "endLine": 123,
+                  "endColumn": 83
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/gearh/source/repos/CatanServer/CatanDataAccess/Migrations/202412040807438_InitialMigrationCatanDB.cs",
+                "region": {
+                  "startLine": 124,
+                  "startColumn": 71,
+                  "endLine": 124,
+                  "endColumn": 85
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/gearh/source/repos/CatanServer/CatanDataAccess/Migrations/202412040807438_InitialMigrationCatanDB.cs",
+                "region": {
+                  "startLine": 125,
+                  "startColumn": 61,
+                  "endLine": 125,
+                  "endColumn": 75
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/gearh/source/repos/CatanServer/CatanDataAccess/Migrations/202412040807438_InitialMigrationCatanDB.cs",
+                "region": {
+                  "startLine": 136,
+                  "startColumn": 23,
+                  "endLine": 136,
+                  "endColumn": 37
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/gearh/source/repos/CatanServer/CatanDataAccess/Migrations/202412040807438_InitialMigrationCatanDB.cs",
+                "region": {
+                  "startLine": 142,
+                  "startColumn": 23,
+                  "endLine": 142,
+                  "endColumn": 37
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": null,
+              "1": null,
+              "2": null,
+              "3": null,
+              "4": null,
+              "5": null,
+              "6": null,
+              "7": null,
+              "8": null
+            }
+          }
+        },
+        {
+          "ruleId": "S1192",
+          "level": "warning",
+          "message": "Define a constant instead of using this literal 'dbo.ProfileGames' 6 times.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/gearh/source/repos/CatanServer/CatanDataAccess/Migrations/202412040807438_InitialMigrationCatanDB.cs",
+                "region": {
+                  "startLine": 45,
+                  "startColumn": 17,
+                  "endLine": 45,
+                  "endColumn": 35
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/gearh/source/repos/CatanServer/CatanDataAccess/Migrations/202412040807438_InitialMigrationCatanDB.cs",
+                "region": {
+                  "startLine": 125,
+                  "startColumn": 28,
+                  "endLine": 125,
+                  "endColumn": 46
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/gearh/source/repos/CatanServer/CatanDataAccess/Migrations/202412040807438_InitialMigrationCatanDB.cs",
+                "region": {
+                  "startLine": 126,
+                  "startColumn": 28,
+                  "endLine": 126,
+                  "endColumn": 46
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/gearh/source/repos/CatanServer/CatanDataAccess/Migrations/202412040807438_InitialMigrationCatanDB.cs",
+                "region": {
+                  "startLine": 134,
+                  "startColumn": 23,
+                  "endLine": 134,
+                  "endColumn": 41
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/gearh/source/repos/CatanServer/CatanDataAccess/Migrations/202412040807438_InitialMigrationCatanDB.cs",
+                "region": {
+                  "startLine": 135,
+                  "startColumn": 23,
+                  "endLine": 135,
+                  "endColumn": 41
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/gearh/source/repos/CatanServer/CatanDataAccess/Migrations/202412040807438_InitialMigrationCatanDB.cs",
+                "region": {
+                  "startLine": 141,
+                  "startColumn": 23,
+                  "endLine": 141,
+                  "endColumn": 41
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": null,
+              "1": null,
+              "2": null,
+              "3": null,
+              "4": null
+            }
+          }
+        },
+        {
+          "ruleId": "S1192",
+          "level": "warning",
+          "message": "Define a constant instead of using this literal 'dbo.Games' 7 times.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/gearh/source/repos/CatanServer/CatanDataAccess/Migrations/202412040807438_InitialMigrationCatanDB.cs",
+                "region": {
+                  "startLine": 55,
+                  "startColumn": 29,
+                  "endLine": 55,
+                  "endColumn": 40
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/gearh/source/repos/CatanServer/CatanDataAccess/Migrations/202412040807438_InitialMigrationCatanDB.cs",
+                "region": {
+                  "startLine": 61,
+                  "startColumn": 17,
+                  "endLine": 61,
+                  "endColumn": 28
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/gearh/source/repos/CatanServer/CatanDataAccess/Migrations/202412040807438_InitialMigrationCatanDB.cs",
+                "region": {
+                  "startLine": 86,
+                  "startColumn": 29,
+                  "endLine": 86,
+                  "endColumn": 40
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/gearh/source/repos/CatanServer/CatanDataAccess/Migrations/202412040807438_InitialMigrationCatanDB.cs",
+                "region": {
+                  "startLine": 126,
+                  "startColumn": 58,
+                  "endLine": 126,
+                  "endColumn": 69
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/gearh/source/repos/CatanServer/CatanDataAccess/Migrations/202412040807438_InitialMigrationCatanDB.cs",
+                "region": {
+                  "startLine": 128,
+                  "startColumn": 63,
+                  "endLine": 128,
+                  "endColumn": 74
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/gearh/source/repos/CatanServer/CatanDataAccess/Migrations/202412040807438_InitialMigrationCatanDB.cs",
+                "region": {
+                  "startLine": 133,
+                  "startColumn": 23,
+                  "endLine": 133,
+                  "endColumn": 34
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/gearh/source/repos/CatanServer/CatanDataAccess/Migrations/202412040807438_InitialMigrationCatanDB.cs",
+                "region": {
+                  "startLine": 140,
+                  "startColumn": 23,
+                  "endLine": 140,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": null,
+              "1": null,
+              "2": null,
+              "3": null,
+              "4": null,
+              "5": null
+            }
+          }
+        },
+        {
+          "ruleId": "S1192",
+          "level": "warning",
+          "message": "Define a constant instead of using this literal 'dbo.GuestAccountGames' 6 times.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/gearh/source/repos/CatanServer/CatanDataAccess/Migrations/202412040807438_InitialMigrationCatanDB.cs",
+                "region": {
+                  "startLine": 77,
+                  "startColumn": 17,
+                  "endLine": 77,
+                  "endColumn": 40
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/gearh/source/repos/CatanServer/CatanDataAccess/Migrations/202412040807438_InitialMigrationCatanDB.cs",
+                "region": {
+                  "startLine": 127,
+                  "startColumn": 28,
+                  "endLine": 127,
+                  "endColumn": 51
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/gearh/source/repos/CatanServer/CatanDataAccess/Migrations/202412040807438_InitialMigrationCatanDB.cs",
+                "region": {
+                  "startLine": 128,
+                  "startColumn": 28,
+                  "endLine": 128,
+                  "endColumn": 51
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/gearh/source/repos/CatanServer/CatanDataAccess/Migrations/202412040807438_InitialMigrationCatanDB.cs",
+                "region": {
+                  "startLine": 131,
+                  "startColumn": 23,
+                  "endLine": 131,
+                  "endColumn": 46
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/gearh/source/repos/CatanServer/CatanDataAccess/Migrations/202412040807438_InitialMigrationCatanDB.cs",
+                "region": {
+                  "startLine": 132,
+                  "startColumn": 23,
+                  "endLine": 132,
+                  "endColumn": 46
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/gearh/source/repos/CatanServer/CatanDataAccess/Migrations/202412040807438_InitialMigrationCatanDB.cs",
+                "region": {
+                  "startLine": 139,
+                  "startColumn": 23,
+                  "endLine": 139,
+                  "endColumn": 46
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": null,
+              "1": null,
+              "2": null,
+              "3": null,
+              "4": null
+            }
+          }
+        },
+        {
+          "ruleId": "S1192",
+          "level": "warning",
+          "message": "Define a constant instead of using this literal 'dbo.GuestAccounts' 4 times.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/gearh/source/repos/CatanServer/CatanDataAccess/Migrations/202412040807438_InitialMigrationCatanDB.cs",
+                "region": {
+                  "startLine": 87,
+                  "startColumn": 29,
+                  "endLine": 87,
+                  "endColumn": 48
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/gearh/source/repos/CatanServer/CatanDataAccess/Migrations/202412040807438_InitialMigrationCatanDB.cs",
+                "region": {
+                  "startLine": 92,
+                  "startColumn": 17,
+                  "endLine": 92,
+                  "endColumn": 36
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/gearh/source/repos/CatanServer/CatanDataAccess/Migrations/202412040807438_InitialMigrationCatanDB.cs",
+                "region": {
+                  "startLine": 127,
+                  "startColumn": 71,
+                  "endLine": 127,
+                  "endColumn": 90
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/gearh/source/repos/CatanServer/CatanDataAccess/Migrations/202412040807438_InitialMigrationCatanDB.cs",
+                "region": {
+                  "startLine": 138,
+                  "startColumn": 23,
+                  "endLine": 138,
+                  "endColumn": 42
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": null,
+              "1": null,
+              "2": null
+            }
+          }
+        },
+        {
+          "ruleId": "S1192",
+          "level": "warning",
+          "message": "Define a constant instead of using this literal 'dbo.FriendRequests' 6 times.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/gearh/source/repos/CatanServer/CatanDataAccess/Migrations/202412040807438_InitialMigrationCatanDB.cs",
+                "region": {
+                  "startLine": 103,
+                  "startColumn": 17,
+                  "endLine": 103,
+                  "endColumn": 37
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/gearh/source/repos/CatanServer/CatanDataAccess/Migrations/202412040807438_InitialMigrationCatanDB.cs",
+                "region": {
+                  "startLine": 123,
+                  "startColumn": 28,
+                  "endLine": 123,
+                  "endColumn": 48
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/gearh/source/repos/CatanServer/CatanDataAccess/Migrations/202412040807438_InitialMigrationCatanDB.cs",
+                "region": {
+                  "startLine": 124,
+                  "startColumn": 28,
+                  "endLine": 124,
+                  "endColumn": 48
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/gearh/source/repos/CatanServer/CatanDataAccess/Migrations/202412040807438_InitialMigrationCatanDB.cs",
+                "region": {
+                  "startLine": 129,
+                  "startColumn": 23,
+                  "endLine": 129,
+                  "endColumn": 43
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/gearh/source/repos/CatanServer/CatanDataAccess/Migrations/202412040807438_InitialMigrationCatanDB.cs",
+                "region": {
+                  "startLine": 130,
+                  "startColumn": 23,
+                  "endLine": 130,
+                  "endColumn": 43
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/gearh/source/repos/CatanServer/CatanDataAccess/Migrations/202412040807438_InitialMigrationCatanDB.cs",
+                "region": {
+                  "startLine": 137,
+                  "startColumn": 23,
+                  "endLine": 137,
+                  "endColumn": 43
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": null,
+              "1": null,
+              "2": null,
+              "3": null,
+              "4": null
+            }
+          }
+        },
+        {
+          "ruleId": "S1192",
+          "level": "warning",
+          "message": "Define a constant instead of using this literal 'GameId' 4 times.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/gearh/source/repos/CatanServer/CatanDataAccess/Migrations/202412040807438_InitialMigrationCatanDB.cs",
+                "region": {
+                  "startLine": 126,
+                  "startColumn": 48,
+                  "endLine": 126,
+                  "endColumn": 56
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/gearh/source/repos/CatanServer/CatanDataAccess/Migrations/202412040807438_InitialMigrationCatanDB.cs",
+                "region": {
+                  "startLine": 128,
+                  "startColumn": 53,
+                  "endLine": 128,
+                  "endColumn": 61
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/gearh/source/repos/CatanServer/CatanDataAccess/Migrations/202412040807438_InitialMigrationCatanDB.cs",
+                "region": {
+                  "startLine": 131,
+                  "startColumn": 56,
+                  "endLine": 131,
+                  "endColumn": 64
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/gearh/source/repos/CatanServer/CatanDataAccess/Migrations/202412040807438_InitialMigrationCatanDB.cs",
+                "region": {
+                  "startLine": 134,
+                  "startColumn": 51,
+                  "endLine": 134,
+                  "endColumn": 59
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": null,
+              "1": null,
+              "2": null
+            }
+          }
+        },
+        {
+          "ruleId": "S6602",
+          "level": "warning",
+          "message": "\"Find\" method should be used instead of the \"FirstOrDefault\" extension method.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/gearh/source/repos/CatanServer/CatanDataAccess/Repositories/ProfileGameRepositories/ProfileGameRepository.cs",
+                "region": {
+                  "startLine": 192,
+                  "startColumn": 56,
+                  "endLine": 192,
+                  "endColumn": 70
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        }
+      ],
+      "rules": {
+        "S1192": {
+          "id": "S1192",
+          "shortDescription": "String literals should not be duplicated",
+          "fullDescription": "Duplicated string literals make the process of refactoring complex and error-prone, as any change would need to be propagated on all occurrences.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1192",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": false,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S6602": {
+          "id": "S6602",
+          "shortDescription": "\"Find\" method should be used instead of the \"FirstOrDefault\" extension",
+          "fullDescription": "Both the List.Find method and IEnumerable.FirstOrDefault method can be used to find the first element that satisfies a given condition in a collection. However, List.Find can be faster than IEnumerable.FirstOrDefault for List objects. For small collections, the performance difference may be minor, but for large collections, it can make a noticeable difference. The same applies for ImmutableList and arrays too.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-6602",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

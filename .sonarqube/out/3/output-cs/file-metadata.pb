@@ -1,0 +1,11 @@
+€
+uC:\Users\gearh\source\repos\CatanServer\CatanService.Tests\obj\Debug\.NETFramework,Version=v4.8.AssemblyAttributes.csutf-8^
+UC:\Users\gearh\source\repos\CatanServer\CatanService.Tests\Properties\AssemblyInfo.csutf-8g
+^C:\Users\gearh\source\repos\CatanServer\CatanService.Tests\ServicesTests\ServiceManagerTest.csutf-8{
+rC:\Users\gearh\source\repos\CatanServer\CatanService.Tests\ServicesTests\ProfileServiceTests\ProfileServiceTest.csutf-8ƒ
+zC:\Users\gearh\source\repos\CatanServer\CatanService.Tests\ServicesTests\ProfileServiceTests\ProfileServiceEndpointTest.csutf-8w
+nC:\Users\gearh\source\repos\CatanServer\CatanService.Tests\ServicesTests\GuestAccountTests\GuestAccountTest.csutf-8~
+uC:\Users\gearh\source\repos\CatanServer\CatanService.Tests\ServicesTests\GameServicesTests\GameServiceEndpointTest.csutf-8{
+rC:\Users\gearh\source\repos\CatanServer\CatanService.Tests\ServicesTests\AccountServiceTests\AccountServiceTest.csutf-8u
+lC:\Users\gearh\source\repos\CatanServer\CatanService.Tests\ServicesTests\ChatServiceTests\ChatServiceTest.csutf-8„
+{C:\Users\gearh\source\repos\CatanServer\CatanService.Tests\ServicesTests\AccountServiceTests\AccountServiceEndpointsTest.csutf-8

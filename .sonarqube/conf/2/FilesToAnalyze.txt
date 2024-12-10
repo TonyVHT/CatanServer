@@ -1,0 +1,4 @@
+﻿C:\Users\gearh\source\repos\CatanServer\CatanServer\Program.cs
+C:\Users\gearh\source\repos\CatanServer\CatanServer\Properties\AssemblyInfo.cs
+C:\Users\gearh\source\repos\CatanServer\CatanServer\App.config
+C:\Users\gearh\source\repos\CatanServer\CatanServer\packages.config

@@ -1,0 +1,498 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="global_log_in" xml:space="preserve">
+    <value>Sign in</value>
+  </data>
+  <data name="global_register" xml:space="preserve">
+    <value>Register</value>
+  </data>
+  <data name="global_username" xml:space="preserve">
+    <value>Username</value>
+  </data>
+  <data name="global_password" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="label_new_username" xml:space="preserve">
+    <value>New Username</value>
+  </data>
+  <data name="button_play_as_gest" xml:space="preserve">
+    <value>Play as a gest</value>
+  </data>
+  <data name="button_continue" xml:space="preserve">
+    <value>Continue</value>
+  </data>
+  <data name="button_help" xml:space="preserve">
+    <value>Need help?</value>
+  </data>
+  <data name="dialog_welcome" xml:space="preserve">
+    <value>Welcome, User!</value>
+  </data>
+  <data name="button_exit" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="window_main_menu" xml:space="preserve">
+    <value>Main Menu</value>
+  </data>
+  <data name="label_waiting_players" xml:space="preserve">
+    <value>Waiting for players</value>
+  </data>
+  <data name="label_catan_spacen" xml:space="preserve">
+    <value>CATAN SPACE</value>
+  </data>
+  <data name="global_friends" xml:space="preserve">
+    <value>Friends</value>
+  </data>
+  <data name="button_create_game" xml:space="preserve">
+    <value>Create Game</value>
+  </data>
+  <data name="button_join_game" xml:space="preserve">
+    <value>Join Game</value>
+  </data>
+  <data name="global_ready" xml:space="preserve">
+    <value>Ready</value>
+  </data>
+  <data name="label_no_ready" xml:space="preserve">
+    <value>Not ready</value>
+  </data>
+  <data name="button_view_profile" xml:space="preserve">
+    <value>View Profile</value>
+  </data>
+  <data name="button_log_out" xml:space="preserve">
+    <value>Log Out</value>
+  </data>
+  <data name="label_connected" xml:space="preserve">
+    <value>Connected</value>
+  </data>
+  <data name="label_starting" xml:space="preserve">
+    <value>Starting in</value>
+  </data>
+  <data name="label_seconds" xml:space="preserve">
+    <value>Seconds</value>
+  </data>
+  <data name="button_scoreboard" xml:space="preserve">
+    <value>Scoreboard</value>
+  </data>
+  <data name="button_invite" xml:space="preserve">
+    <value>Invite</value>
+  </data>
+  <data name="global_friend_request" xml:space="preserve">
+    <value>Friend Request</value>
+  </data>
+  <data name="button_send" xml:space="preserve">
+    <value>Send</value>
+  </data>
+  <data name="button_close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="dialog_success" xml:space="preserve">
+    <value>Success</value>
+  </data>
+  <data name="button_accept" xml:space="preserve">
+    <value>Accept</value>
+  </data>
+  <data name="dialog_invitation_message" xml:space="preserve">
+    <value>Your friend has been successfully invited to the game</value>
+  </data>
+  <data name="dialog_invalid_username_password_message" xml:space="preserve">
+    <value>An incorrect username or password has been entered</value>
+  </data>
+  <data name="dialog_exception_service" xml:space="preserve">
+    <value>Invalid characters</value>
+  </data>
+  <data name="dialog_empty_fields" xml:space="preserve">
+    <value>Empty fields</value>
+  </data>
+  <data name="dialog_invalid_characters_message" xml:space="preserve">
+    <value>Invalid characters have been entered</value>
+  </data>
+  <data name="button_delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="global_add_friend" xml:space="preserve">
+    <value>Add friend</value>
+  </data>
+  <data name="dialog_empty_fields_message" xml:space="preserve">
+    <value>Required fields have been left empty</value>
+  </data>
+  <data name="button_cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="dialog_database_load_exception_message" xml:space="preserve">
+    <value>Unable to save data</value>
+  </data>
+  <data name="dialog_database_save_exception_message" xml:space="preserve">
+    <value>An error occurred while saving the data, please try again</value>
+  </data>
+  <data name="dialog_connection_server_exception_message" xml:space="preserve">
+    <value>The connection was lost, please try again later</value>
+  </data>
+  <data name="dialog_connection_server_exception" xml:space="preserve">
+    <value>The connection was lost.</value>
+  </data>
+  <data name="dialog_database_load_exception" xml:space="preserve">
+    <value>Unable to load data.</value>
+  </data>
+  <data name="dialog_database_save_exception" xml:space="preserve">
+    <value>Unable to save data</value>
+  </data>
+  <data name="dialog_add_new_friend" xml:space="preserve">
+    <value>Enter the name of the player you wish to add as a friend</value>
+  </data>
+  <data name="dialog_send_friend_request_message" xml:space="preserve">
+    <value>Friend request has been sent successfully</value>
+  </data>
+  <data name="dialog_remove_friend" xml:space="preserve">
+    <value>Remove friend</value>
+  </data>
+  <data name="dialog_confirm_remove_friend_message" xml:space="preserve">
+    <value>Are you sure you want to remove this user from your friends list?</value>
+  </data>
+  <data name="dialog_succes_remove_friend_message" xml:space="preserve">
+    <value>Your friend has been removed successfully</value>
+  </data>
+  <data name="dialog_name_not_found_message" xml:space="preserve">
+    <value>That name was not found registered as an account, please check it and try again</value>
+  </data>
+  <data name="global_register_user" xml:space="preserve">
+    <value>Register New User</value>
+  </data>
+  <data name="label_invalid_email_message" xml:space="preserve">
+    <value>Please provide a valid email address.</value>
+  </data>
+  <data name="button_back" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="label_user_required_fields" xml:space="preserve">
+    <value>Please fill in the required ACCOUNT fields</value>
+  </data>
+  <data name="dialog_registration_cancelled_message" xml:space="preserve">
+    <value>Registration has been cancelled.</value>
+  </data>
+  <data name="dialog_verification_account_message" xml:space="preserve">
+    <value>A verification code has been sent to your email or phone number. Please confirm your account by entering the access code.</value>
+  </data>
+  <data name="label_access_code" xml:space="preserve">
+    <value>Access Code</value>
+  </data>
+  <data name="dialog_invalid_username_characters" xml:space="preserve">
+    <value>Invalid characters have been entered, please include only numbers and letters</value>
+  </data>
+  <data name="dialog_invalid_password_characters" xml:space="preserve">
+    <value>Invalid characters have been entered, please include only numbers, letters, and the symbols '.', '-', and '_'.</value>
+  </data>
+  <data name="label_email_already_registered" xml:space="preserve">
+    <value>The email is already registered.</value>
+  </data>
+  <data name="dialog_incorrect_code_message" xml:space="preserve">
+    <value>Incorrect code. Please check that it is entered correctly and try again</value>
+  </data>
+  <data name="window_edit_profile" xml:space="preserve">
+    <value>Edit Profile</value>
+  </data>
+  <data name="label_new_email" xml:space="preserve">
+    <value>New Email</value>
+  </data>
+  <data name="label_new_phone_number" xml:space="preserve">
+    <value>New Phone Number</value>
+  </data>
+  <data name="label_new_password" xml:space="preserve">
+    <value>New Password</value>
+  </data>
+  <data name="button_save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="button_save_photo" xml:space="preserve">
+    <value>Save Photo</value>
+  </data>
+  <data name="dialog_code_sent_message" xml:space="preserve">
+    <value>A message with a code has been sent to your email or phone number. Please enter the code to save the changes.</value>
+  </data>
+  <data name="button_decline" xml:space="preserve">
+    <value>Decline</value>
+  </data>
+  <data name="label_enter_lobby_code" xml:space="preserve">
+    <value>Enter the room code to join</value>
+  </data>
+  <data name="message_join_room" xml:space="preserve">
+    <value>has joined the room.</value>
+  </data>
+  <data name="button_join_room" xml:space="preserve">
+    <value>Join Room!</value>
+  </data>
+  <data name="dialog_game_not_found_message" xml:space="preserve">
+    <value>The room was not found.</value>
+  </data>
+  <data name="dialog_full_game_message" xml:space="preserve">
+    <value>Unable to join the room, the maximum number of members has been reached.</value>
+  </data>
+  <data name="dialog_friend_added_message" xml:space="preserve">
+    <value>This player has been added to your friends list</value>
+  </data>
+  <data name="dialog_not_friend_request_message" xml:space="preserve">
+    <value>No friend requests have been received yet</value>
+  </data>
+  <data name="global_create_new_game" xml:space="preserve">
+    <value>Create New Game</value>
+  </data>
+  <data name="global_start_game" xml:space="preserve">
+    <value>Start Game</value>
+  </data>
+  <data name="label_chat" xml:space="preserve">
+    <value>Chat</value>
+  </data>
+  <data name="label_message_field" xml:space="preserve">
+    <value>Message Field</value>
+  </data>
+  <data name="button_ready" xml:space="preserve">
+    <value>Ready</value>
+  </data>
+  <data name="global_kick_player" xml:space="preserve">
+    <value>Kick Player</value>
+  </data>
+  <data name="dialog_reject_friend_request_message" xml:space="preserve">
+    <value>Friend request has been rejected</value>
+  </data>
+  <data name="label_world" xml:space="preserve">
+    <value>World</value>
+  </data>
+  <data name="label_weekly" xml:space="preserve">
+    <value>Weekly</value>
+  </data>
+  <data name="label_player" xml:space="preserve">
+    <value>Player</value>
+  </data>
+  <data name="label_games_won" xml:space="preserve">
+    <value>Games won</value>
+  </data>
+  <data name="label_total_points" xml:space="preserve">
+    <value>Total points</value>
+  </data>
+  <data name="dialog_kick_player_message" xml:space="preserve">
+    <value>Are you sure you want to kick the player?</value>
+  </data>
+  <data name="option_bad_behavior" xml:space="preserve">
+    <value>Bad behavior</value>
+  </data>
+  <data name="option_misuse_game" xml:space="preserve">
+    <value>Misuse of the game</value>
+  </data>
+  <data name="option_undefined" xml:space="preserve">
+    <value>Undefined</value>
+  </data>
+  <data name="button_confirm" xml:space="preserve">
+    <value>Confirm</value>
+  </data>
+  <data name="button_abort" xml:space="preserve">
+    <value>Abort</value>
+  </data>
+  <data name="dialog_succes_kick_player_message" xml:space="preserve">
+    <value>The player has been successfully kicked</value>
+  </data>
+  <data name="dialog_kicked_player_message" xml:space="preserve">
+    <value>You have been kicked from the room for reason:</value>
+  </data>
+  <data name="window_kick" xml:space="preserve">
+    <value>Kick Player</value>
+  </data>
+  <data name="label_votes" xml:space="preserve">
+    <value>Votes</value>
+  </data>
+  <data name="dialog_confirm_vote_kick_player_message" xml:space="preserve">
+    <value>Are you sure you want to vote to expel the player?</value>
+  </data>
+  <data name="label_the_player" xml:space="preserve">
+    <value>The player</value>
+  </data>
+  <data name="label_has_been_kicked" xml:space="preserve">
+    <value>has been kicked from the room.</value>
+  </data>
+  <data name="dialog_you_have_been_kicked_message" xml:space="preserve">
+    <value>You have been kicked out of the game.</value>
+  </data>
+  <data name="label_recover_password" xml:space="preserve">
+    <value>Recover password</value>
+  </data>
+  <data name="label_enter_verification_code" xml:space="preserve">
+    <value>Enter your verification code</value>
+  </data>
+  <data name="button_resend" xml:space="preserve">
+    <value>Resend</value>
+  </data>
+  <data name="window_recover_account" xml:space="preserve">
+    <value>Recover account</value>
+  </data>
+  <data name="windows_change_password" xml:space="preserve">
+    <value>Change password</value>
+  </data>
+  <data name="label_confirm_password" xml:space="preserve">
+    <value>Confirm password</value>
+  </data>
+  <data name="dialog_password_changed_message" xml:space="preserve">
+    <value>The password has been changed successfully</value>
+  </data>
+  <data name="dialog_password_changed" xml:space="preserve">
+    <value>Password updated successfully</value>
+  </data>
+  <data name="global_cancel_change" xml:space="preserve">
+    <value>Cancel change</value>
+  </data>
+  <data name="dialog_cancel_change_password_message" xml:space="preserve">
+    <value>Are you sure you want to cancel the password change?</value>
+  </data>
+  <data name="dialog_password_not_match" xml:space="preserve">
+    <value>The passwords do not match</value>
+  </data>
+  <data name="dialog_unregistered_email" xml:space="preserve">
+    <value>Unregistered email</value>
+  </data>
+  <data name="dialog_unregistered_email_message" xml:space="preserve">
+    <value>The email you entered is not registered.</value>
+  </data>
+  <data name="dialog_resent_code" xml:space="preserve">
+    <value>Resent code</value>
+  </data>
+  <data name="dialog_resent_code_message" xml:space="preserve">
+    <value>The code has been resent.</value>
+  </data>
+  <data name="check_box_show_password" xml:space="preserve">
+    <value>Show Password</value>
+  </data>
+  <data name="global_email_phone_number" xml:space="preserve">
+    <value>Email or Phone Number</value>
+  </data>
+  <data name="dialog_success_save_database" xml:space="preserve">
+    <value>Saved successfully</value>
+  </data>
+  <data name="subject_verification_code" xml:space="preserve">
+    <value>VERIFICATION CODE CATAN</value>
+  </data>
+  <data name="Message_join_chat" xml:space="preserve">
+    <value>has joined the room!</value>
+  </data>
+  <data name="email_subject_invite_friends_game" xml:space="preserve">
+    <value>Join to my game in Catan!</value>
+  </data>
+  <data name="message_code" xml:space="preserve">
+    <value>CODE: </value>
+  </data>
+  <data name="message_expel_player" xml:space="preserve">
+    <value>You have been expelled from the Game</value>
+  </data>
+</root>
