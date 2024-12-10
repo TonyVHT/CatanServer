@@ -1,4 +1,4 @@
-# Catan Game Server
+# Catan Server
 
 The **Catan Game Server** is a multiplayer server developed using **.NET Framework 4.8**, **Entity Framework**, **SQL Server** and **WCF**. 
 The server supports key features such as real-time chat, player profile management, and multiplayer access control. 
